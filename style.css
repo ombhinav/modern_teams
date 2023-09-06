@@ -10,10 +10,10 @@
     display: flex;
     justify-content: space-between;
     /* align-items: center; */
-    height: 100vh;
+    height: 9.5vh;
     gap: 2rem;
-    background-color: antiquewhite;
-    height: 80px;
+    background-color: white;
+    /* height: 80px; */
   }
 
 .item {
@@ -31,6 +31,7 @@
 .logo{
     margin-right: auto;
     padding-left: 1.5rem;
+    cursor: pointer;
 }  
 
 .aboutus{
@@ -38,22 +39,95 @@
     background-image: url("aboutus.jpg");
     height: 60rem;
     background-size: contain;
+    background-position: center 0;
+    background-repeat: no-repeat;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+
 }
 
 .text{
-    padding: 4rem 3rem;
+    padding: 5.5rem 6rem;
     font-size: 10rem;
     max-width: 30rem;
 }
+
+.para1{
+    margin: 0px;
+}
 .content{
-    margin-top: 4rem;
-    margin-right: 4rem;
+    text-align: left;
+    padding: 3%;
+    margin-top: 17rem;
+    margin-right: 6rem;
     background-color: white;
-    height: 450px;
+    height: 330px;
     border-radius: 4%;
     margin-left: auto;
     max-width: 30rem;
     font-size: 1.5rem;
 }
 
+.mission_con{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    height: 50vh;
+}
+
+.mission_title{
+    padding: 5.5rem 6rem;
+    font-size: 7rem;
+    /* max-width: 30rem; */
+}
+
+.mission_content{
+    padding-top: 11%;
+    font-size: 1.3rem;
+    max-width: 50rem;
+    padding-right: 4%;
+}
+
+.quote{
+    padding-left: 7rem ;
+    font-size: 2rem;
+    max-width: 70rem;
+    height: 15vh;
+}
+
+.button{
+    --b: 3px;
+    --s: .45em;
+    --color: #373B44;
+    padding: calc(0.5em + var(--s)) calc(0.9em + var(--s));
+    color: var(--color);
+    --_p: var(--s);
+    background: conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0) var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+    font-size: 16px;
+    border: 0;
+   
+
+    margin-left: 7rem;
+    cursor: pointer;
+
+}
+
+.footer{
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
+    margin-top: 4rem;
+    background-color: black;
+    color: white;
+    height: 10vh;
+    text-align: center;
+}
+
+.footer_content{
+    padding-top: 2%;
+    font-size: 1.3rem;
+}
+
+.copyright{
+    color: rgb(198, 147, 72);
+}
 
