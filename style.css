@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Questrial&display=swap');
+
+
+*{
+    font-family: 'Questrial', sans-serif;
+    
+}
+.nav_bar {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    height: 100vh;
+    gap: 2rem;
+    background-color: antiquewhite;
+    height: 80px;
+  }
+
+.item {
+    padding-top: 1.8rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+.contact{
+
+    padding-right: 2.8rem;
+}  
+
+.logo{
+    margin-right: auto;
+    padding-left: 1.5rem;
+}  
+
+.aboutus{
+    display: flex;
+    background-image: url("aboutus.jpg");
+    height: 60rem;
+    background-size: contain;
+}
+
+.text{
+    padding: 4rem 3rem;
+    font-size: 10rem;
+    max-width: 30rem;
+}
+.content{
+    margin-top: 4rem;
+    margin-right: 4rem;
+    background-color: white;
+    height: 450px;
+    border-radius: 4%;
+    margin-left: auto;
+    max-width: 30rem;
+    font-size: 1.5rem;
+}
+
+
